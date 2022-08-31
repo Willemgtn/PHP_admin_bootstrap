@@ -1,0 +1,56 @@
+body{
+    background: rgb(225, 225, 225);
+}
+
+nav.navbar{
+    background: #26a69a!important;
+}
+
+body header {
+    background: rgb(37, 37, 37);
+    color: white;
+}
+header div.container div.row div:last-child{
+    text-align: right;
+}
+
+div.container#main > div {
+    background: white;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+div.container#main div.display h2{
+    background: #26a69a;
+}
+div.container#main div.display p{
+    background: white;
+}
+
+div#main ul li:first-child{
+    background: #26a69a;
+}
+textarea,
+input{
+    display: block!important;
+    width: 100%!important;
+    margin-bottom: 1em!important;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+div#main .row > * > .card {
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    div#main .row{
+        flex-direction: column;
+    }
+    div#main .row > * {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
